@@ -1,3 +1,7 @@
 function myProjects() {
-  return <div></div>;
+  return (
+    <div>
+      <img></img>
+    </div>
+  );
 }
