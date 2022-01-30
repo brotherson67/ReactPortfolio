@@ -1,5 +1,4 @@
 import "./NavigationMaster.css";
-import FooterMaster from "../FooterComponents/FooterMaster";
 
 function NavigationMaster() {
   return (
@@ -21,7 +20,6 @@ function NavigationMaster() {
           <a href="#resume">RESUME</a>
         </li>
       </ul>
-      <FooterMaster></FooterMaster>
     </div>
   );
 }

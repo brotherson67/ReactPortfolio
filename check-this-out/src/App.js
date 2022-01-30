@@ -1,11 +1,11 @@
 import "./App.css";
-import NavigationMaster from "./Components/Navigation/NavBar/NavigationMaster";
+import MainPage from "./Components/MainPage/MainPage";
 
 function App() {
   return (
     <div className="App">
       <nav>
-        <NavigationMaster />
+        <MainPage />
       </nav>
     </div>
   );
