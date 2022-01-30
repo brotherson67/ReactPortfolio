@@ -4,7 +4,7 @@ import FooterMaster from "../FooterComponents/FooterMaster";
 
 function MainPage() {
   return (
-    <body>
+    <body className="body">
       <Nav />
       <FooterMaster />
     </body>

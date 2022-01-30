@@ -1,5 +1,5 @@
-body {
+.body {
   position: relative;
   min-height: 100vw;
-  background-color: grey;
+  background-image: url("../../assets/images/ipados-stock-orange-white-background-ipad-ios-13-hd-3208x3208-1551.jpg");
 }
