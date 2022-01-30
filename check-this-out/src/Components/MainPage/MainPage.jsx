@@ -1,11 +1,13 @@
 import "./MainPage.css";
 import Nav from "../Navigation/NavBar/NavigationMaster";
+import FooterMaster from "../FooterComponents/FooterMaster";
 
 function MainPage() {
   return (
-    <div>
+    <body>
       <Nav />
-    </div>
+      <FooterMaster />
+    </body>
   );
 }
 
