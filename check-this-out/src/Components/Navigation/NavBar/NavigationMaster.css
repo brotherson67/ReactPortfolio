@@ -1,25 +1,19 @@
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  background-color: orange;
 }
 
 .navigation .logo {
-  font-size: 26px;
+  background-color: red;
+  font-size: 16px;
 }
 
-nav ul li {
-  display: inline;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-Nav ul li a {
-  color: #3d6d79;
-  font-size: 18px;
-  font-weight: bold;
+.links a {
+  padding: 0.5rem;
   text-decoration: none;
-  padding-right: 25px;
+  color: inherit;
+  font-weight: 500;
 }

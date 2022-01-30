@@ -4,9 +4,9 @@ import MainPage from "./Components/MainPage/MainPage";
 function App() {
   return (
     <div className="App">
-      <nav>
+      <div>
         <MainPage />
-      </nav>
+      </div>
     </div>
   );
 }
