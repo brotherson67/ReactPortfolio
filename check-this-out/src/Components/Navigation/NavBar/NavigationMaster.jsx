@@ -1,10 +1,11 @@
 import "./NavigationMaster.css";
+import FooterMaster from "../FooterComponents/FooterMaster";
 
 function NavigationMaster() {
   return (
     <div className="navigation">
       <div className="logo">
-        <h1>Site Title</h1>
+        <h1>Brotherson</h1>
       </div>
       <ul>
         <li>
@@ -20,6 +21,7 @@ function NavigationMaster() {
           <a href="#resume">RESUME</a>
         </li>
       </ul>
+      <FooterMaster></FooterMaster>
     </div>
   );
 }
