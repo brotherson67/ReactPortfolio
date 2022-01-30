@@ -1,5 +1,5 @@
 import "./App.css";
-import NavigationMaster from "./Components/NaigationMaster";
+import NavigationMaster from "./Components/NavigationMaster";
 
 function App() {
   return (
