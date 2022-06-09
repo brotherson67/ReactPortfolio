@@ -1,0 +1,10 @@
+.mainHeroImg {
+  /* background-image: url("../../assets/images/jamie-hagan-RWzPBcWVdpw-unsplash.jpg"); */
+  background-color: #e0e0e2;
+  height: 50vw;
+}
+
+.mainHeroImg h2 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,11 +1,14 @@
+// import of parent styling
 import "./NavigationMaster.css";
+
+// import components
+import "../NavHome/NavHome";
+import NavHome from "../NavHome/NavHome";
 
 function NavigationMaster() {
   return (
     <div className="navigation">
-      <div className="logo">
-        <h1>MB</h1>
-      </div>
+      <NavHome />
       <div className="links">
         <a href="#about-me">ABOUT ME</a>
         <a href="#work">PROJECTS</a>
